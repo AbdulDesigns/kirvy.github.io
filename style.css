@@ -1,0 +1,213 @@
+  *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Manrope,sans-serif;
+      transition: ease-in-out .4s;
+  }  
+
+  :root{
+      --primary:rgb(50, 151, 253);
+      --secondary:#314862;
+      --Accent:#F5F6FD;
+      --gray:#B8BDC2;
+      --defaultfont:Manrope,sans-serif;
+      --shadow-type1:0px 5px 12px rgba(50, 151, 253,.2);
+  }
+
+  /*universal*/
+.main_header{
+    font-size: 4em;
+   font-weight: 800;
+   color: var(--secondary);
+}
+
+.body_para{
+    font-size: 1em;
+    color: var(--gray);
+}
+  
+
+  /*navigation bar*/
+
+
+  .wrapper{
+      padding-top: 1em;
+      position: relative;
+  }
+
+  nav .navbar {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+  }
+
+  .brand_logo{
+      width: 5em;
+  }
+
+
+  div .navbar-nav .nav-item {
+      font-size: .9em;
+      font-weight:500;
+      color: var(--secondary);
+      padding: 0 1em;
+  }
+
+  div .navbar-nav .nav-link:hover {
+    color: var(--primary) !important;
+}
+
+
+  nav .cta{
+      font-size: .8em;
+      padding: .5em 2em;
+  }
+
+
+
+/*hero-section with image*/
+
+nav .hero_section{
+    padding: 5em 0;
+}
+
+nav .hero_section h1{
+   font-size: 4em;
+   font-weight: 800;
+   color: var(--secondary);
+}
+
+nav .hero_section p{
+    margin: 1.4em 0;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--gray);
+ }
+
+nav .hero_section img{
+    width: 100%;
+    border-radius:6em 6em 0 6em ;
+ }
+
+ nav .hero_section .Header_circle{
+     width: 8em;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+
+ }
+
+ nav .hero_section button{
+     margin: 1em 0;
+     padding: .8em 2.7em;
+     border-radius: 3em;
+     font-size: .9em;
+     font-weight: 600;
+     box-shadow: 0px 5px 12px rgba(50, 151, 253,.4);
+ }
+
+
+
+/*MainSection*/
+
+main .hero_section{
+    padding: 5em 0;
+}
+
+main .hero_section h1{
+   font-size: 2.5em;
+   padding-left:.4em;
+   font-weight: 800;
+   color: var(--secondary);
+}
+
+main .hero_section p{
+    margin: 1.4em 0;
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--gray);
+    width: 90%;
+ }
+
+main .hero_section img{
+    width: 100%;
+    border-radius:6em 0 6em 6em;
+ }
+
+ main .hero_section .Header_circle{
+     width: 5em;
+     position: absolute;
+     left:0;
+     top: 0;
+
+ }
+
+main .hero_section button{
+     margin: 1em 1em;
+     padding: .8em 2.7em;
+     border-radius: 3em;
+     font-size: .9em;
+     font-weight: 600;
+     box-shadow: 0px 5px 12px rgba(50, 151, 253,.4);
+ }
+
+ main .hero_section{
+     background-color:var(--Accent);
+     border-radius: 3em;
+ }
+
+ main .hero_section small {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+
+
+/*Features & Cards*/
+
+main .card_section{
+    padding: 9em 0;
+}
+
+main .card_section .row .card{
+    height:160px;
+    border: none;
+    border-radius:0 3em 0 3em;
+    box-shadow: var(--shadow-type1);
+    
+}
+
+main .card_section .row i {
+    
+        background-color:var(--Accent);
+        border-radius: 50%;
+        border: 1x solid grey;
+        padding: 20px;
+        margin-bottom: .5em;
+        color: var(--primary);
+        font-size: 1.1em;   
+}
+
+main .card_section .row h3 {
+    margin-bottom: 0;
+    font-size: 1.2em; 
+    font-weight: 700;  
+}
+
+main .card_section .row p {
+    
+    font-size: .7em; 
+    font-weight: 500;  
+}
+
+    
+
+
+
+
+
+
+ 

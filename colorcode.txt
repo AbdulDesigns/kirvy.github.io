@@ -1,0 +1,4 @@
+Primary - #3297FD
+Secondary-#314862
+Accents-#F5F6FD
+Gray-#B8BDC2
